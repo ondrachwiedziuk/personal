@@ -26,17 +26,24 @@ module Jekyll
       @name = "#{photo['filename'].gsub(/\.[^.]+$/, '')}.html"
 
       self.process(@name)
-      self.read_yaml(File.join(@base, '_layouts'), 'photo.html')
       
-      self.data['title'] = photo['title'] || photo['filename']
-      self.data['filename'] = photo['filename']
-      self.data['gallery_slug'] = gallery_slug
-      self.data['gallery_title'] = gallery_title
-      self.data['gallery_url'] = gallery_url
+      # Set the layout and data directly instead of reading from file
+      self.data = {
+        'layout' => 'photo',
+        'title' => photo['title'] || photo['filename'],
+        'filename' => photo['filename'],
+        'gallery_slug' => gallery_slug,
+        'gallery_title' => gallery_title,
+        'gallery_url' => gallery_url
+      }
+      
+      # Add optional data if present
       self.data['description'] = photo['description'] if photo['description']
       self.data['date'] = photo['date'] if photo['date']
       self.data['exif'] = photo['exif'] if photo['exif']
-      self.data['layout'] = 'photo'
+      
+      # Set empty content
+      self.content = ''
     end
   end
 end
