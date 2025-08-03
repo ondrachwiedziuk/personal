@@ -32,6 +32,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:name/
+
 # Header pages for navigation
 header_pages:
   - recipes.md
