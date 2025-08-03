@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="gallery-page">
+  <header class="gallery-header">
+    <h1 class="gallery-title">{{ page.title | escape }}</h1>
+    {%- if page.description -%}
+      <p class="gallery-description">{{ page.description }}</p>
+    {%- endif -%}
+    {%- if page.date -%}
+      <p class="gallery-date">{{ page.date | date: site.minima.date_format }}</p>
+    {%- endif -%}
+  </header>
+
+  <div class="gallery-grid">
+    {%- for photo in page.photos -%}
+      <div class="gallery-item">
+        <a href="{{ '/photos/' | append: page.slug | append: '/' | append: photo.filename | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.webp' | append: '.html' | relative_url }}" class="gallery-link">
+          <img src="{{ '/assets/photos/thumbnails/' | append: page.slug | append: '/' | append: photo.filename | relative_url }}" 
+               alt="{{ photo.title | default: photo.filename }}" 
+               class="gallery-thumbnail"
+               loading="lazy">
+          {%- if photo.title -%}
+            <div class="gallery-caption">{{ photo.title }}</div>
+          {%- endif -%}
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {%- if page.content != '' -%}
+    <div class="gallery-content">
+      {{ content }}
+    </div>
+  {%- endif -%}
+</article>

@@ -37,6 +37,9 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:name/
+  galleries:
+    output: true
+    permalink: /:collection/:name/
 
 # Header pages for navigation
 header_pages:
@@ -54,3 +57,5 @@ minima:
 exclude:
   - assets/images/README.md
   - _layouts/home.html
+  - assets/photos/originals/
+  - GALLERY_README.md

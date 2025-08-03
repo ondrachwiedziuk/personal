@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<article class="photo-page">
+  <header class="photo-header">
+    <nav class="photo-nav">
+      <a href="{{ page.gallery_url | relative_url }}" class="back-to-gallery">← Back to {{ page.gallery_title }}</a>
+    </nav>
+    {%- if page.title -%}
+      <h1 class="photo-title">{{ page.title | escape }}</h1>
+    {%- endif -%}
+  </header>
+
+  <div class="photo-container">
+    <img src="{{ '/assets/photos/full/' | append: page.gallery_slug | append: '/' | append: page.filename | relative_url }}" 
+         alt="{{ page.title | default: page.filename }}" 
+         class="photo-full">
+  </div>
+
+  {%- if page.description -%}
+    <div class="photo-description">
+      <p>{{ page.description }}</p>
+    </div>
+  {%- endif -%}
+
+  {%- if page.exif -%}
+    <div class="photo-exif">
+      <h3>Photo Details</h3>
+      <dl>
+        {%- if page.exif.camera -%}
+          <dt>Camera</dt>
+          <dd>{{ page.exif.camera }}</dd>
+        {%- endif -%}
+        {%- if page.exif.lens -%}
+          <dt>Lens</dt>
+          <dd>{{ page.exif.lens }}</dd>
+        {%- endif -%}
+        {%- if page.exif.settings -%}
+          <dt>Settings</dt>
+          <dd>{{ page.exif.settings }}</dd>
+        {%- endif -%}
+        {%- if page.date -%}
+          <dt>Date</dt>
+          <dd>{{ page.date | date: site.minima.date_format }}</dd>
+        {%- endif -%}
+      </dl>
+    </div>
+  {%- endif -%}
+
+  {%- if page.content != '' -%}
+    <div class="photo-content">
+      {{ content }}
+    </div>
+  {%- endif -%}
+</article>
