@@ -1,28 +1,25 @@
 ---
 ---
 
-// Only the main Sass file needs front matter (the dashes are enough)
 // ================================
-// MINIMA THEME - CUSTOM EDITABLE VERSION
+// MINIMA THEME - CLEANED & STRUCTURED
 // ================================
 
-// CSS Variables for theming (your legacy style)
+// ================================
+// CSS VARIABLES & THEME COLORS
+// ================================
 :root {
-    /* Fall */
-    --primary-color: #841617;
-    --secondary-color: #DC143C;
-    /* Spring */
-    // --primary-color: forestgreen;
-    // --secondary-color: limegreen;
-    
-    /* Dark theme colors for navbar */
-    --navbar-bg: #242424;
-    --navbar-text: #fffafa;
-    --menu-bg: #333333;
-    --menu-bg-hover: #3a3a3a;
+  --primary-color: #841617;
+  --secondary-color: #DC143C;
+  --navbar-bg: #242424;
+  --navbar-text: #fffafa;
+  --menu-bg: #333333;
+  --menu-bg-hover: #3a3a3a;
 }
 
-// SCSS Variables
+// ================================
+// SCSS VARIABLES
+// ================================
 $base-font-family: Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -33,21 +30,19 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fffafa !default;
-$brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
-
-// Width of the content area
 $content-width:    800px !default;
-
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
-// Mixins
+// ================================
+// MIXINS
+// ================================
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
@@ -88,13 +83,9 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  // Add padding for fixed navbar (legacy style)
   padding-top: 50px;
 }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -102,9 +93,6 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-/**
- * Headers styling - systematic hierarchy
- */
 h1, h2, h3, h4, h5, h6 {
   text-align: center !important;
   font-weight: 600 !important;
@@ -135,24 +123,15 @@ h6 {
   font-size: 1.05em !important;
 }
 
-/**
- * `main` element
- */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
 }
 
-/**
- * Images
- */
 img {
   max-width: 100%;
   vertical-align: middle;
 }
 
-/**
- * Profile Image
- */
 .profile-image {
   width: 200px;
   height: 200px;
@@ -179,9 +158,6 @@ img {
   margin-left: 0.3em;
 }
 
-/**
- * Figures
- */
 figure > img {
   display: block;
 }
@@ -190,9 +166,6 @@ figcaption {
   font-size: $small-font-size;
 }
 
-/**
- * Lists
- */
 ul, ol {
   margin-left: $spacing-unit;
 }
@@ -204,9 +177,6 @@ li {
   }
 }
 
-/**
- * Links
- */
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -229,12 +199,10 @@ a {
   }
 }
 
-/* Bold text styling - just regular bold */
 b, strong {
   font-weight: bold;
 }
 
-/* Button styling from legacy */
 .button, 
 .button a, 
 a.button,
@@ -259,9 +227,6 @@ a.button:hover {
   text-decoration: none !important;
 }
 
-/**
- * Blockquotes
- */
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
@@ -275,38 +240,39 @@ blockquote {
   }
 }
 
-/**
- * Code formatting
- */
-pre,
-code {
+pre, code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
 }
 
-code {
-  padding: 1px 5px;
+:not(pre) > code {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 0.1em 0.3em;
+  font-size: 0.85em;
 }
 
 pre {
-  padding: 8px 12px;
+  background-color: #f8f8f8;
+  padding: 1rem;
   overflow-x: auto;
+  line-height: 1.4;
+  tab-size: 2;
+  border-left: 3px solid var(--primary-color);
+  margin: 1rem 0;
 
   > code {
     border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
+    background: transparent;
+    color: inherit;
   }
 }
 
-/**
- * Wrapper
- */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -314,25 +280,17 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
 }
 
-/**
- * Clearfix
- */
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/**
- * Icons
- */
 
 .svg-icon {
     width: 16px;
@@ -349,9 +307,6 @@ pre {
   }
 }
 
-/**
- * Tables
- */
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -377,9 +332,9 @@ table {
   }
 }
 
-// ================================
-// SITE HEADER - LEGACY NAVBAR STYLE
-// ================================
+// ==========================
+// SITE HEADER - NAVBAR STYLE
+// ==========================
 
 .site-header {
   background-image: linear-gradient(var(--navbar-bg) 47px, var(--primary-color) 47px, var(--primary-color) 50px);
@@ -477,24 +432,6 @@ table {
   }
 }
 
-// Legacy site-title class (keeping for compatibility)
-.site-title {
-  color: var(--navbar-text);
-  font-size: 24px;
-  margin: 0;
-  flex-grow: 1;
-  font-weight: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  white-space: nowrap;
-
-  &,
-  &:visited {
-    color: var(--navbar-text);
-  }
-}
-
-// CSS-only hamburger menu toggle
 .menu-toggle {
   display: none;
 }
@@ -532,7 +469,6 @@ table {
     }
   }
 
-  // Responsive breakpoint - show burger menu when content doesn't fit
   @media screen and (max-width: 1100px) {
     .nav-trigger {
       display: none;
@@ -595,16 +531,15 @@ table {
       }
     }
 
-    // Hide regular navigation links on mobile
     .page-link:not(.trigger .page-link) {
       display: none;
     }
   }
 }
 
-// ================================
+// ===========
 // SITE FOOTER
-// ================================
+// ===========
 
 .site-footer {
   border-top: 1px solid $grey-color-light;
@@ -637,44 +572,38 @@ table {
 }
 
 .footer-col-1 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-  width:         calc(40% - (#{$spacing-unit} / 2));
+  width: calc(40% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
 @include media-query($on-palm) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
-// ================================
+// ============
 // PAGE CONTENT
-// ================================
+// ============
 
 .page-content {
   padding: $spacing-unit 0;
@@ -710,9 +639,9 @@ table {
   @include relative-font-size(1.5);
 }
 
-// ================================
+// =====
 // POSTS
-// ================================
+// =====
 
 .post-header {
   margin-bottom: $spacing-unit;
@@ -732,17 +661,18 @@ table {
   margin-bottom: $spacing-unit;
 }
 
-// ================================
+// ===================
 // SYNTAX HIGHLIGHTING
-// ================================
+// ===================
 
 .highlight {
-  background: #fff;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  border-left: 3px solid var(--primary-color);
+  margin: 1rem 0;
   @extend %vertical-rhythm;
-
-  .highlighter-rouge & {
-    background: #eef;
-  }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
@@ -805,44 +735,8 @@ table {
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-// ================================
-// PENUMBRA LIGHT SYNTAX HIGHLIGHTING
-// ================================
-
-// Penumbra Light Theme Colors (for light theme usage)
-// Base colors
-$penumbra-sun-plus: #FFFDFB;    // lightest background
-$penumbra-sun: #FFF7ED;         // main background
-$penumbra-sun-minus: #F2E6D4;   // light background elements
-$penumbra-sky-plus: #BEBEBE;    // emphasized content
-$penumbra-sky: #8F8F8F;         // main text/code
-$penumbra-sky-minus: #636363;   // comments, de-emphasized
-$penumbra-shade-plus: #3E4044;  // rulers, guides
-$penumbra-shade: #303338;       // dark background
-$penumbra-shade-minus: #24272B; // darkest elements
-
-// Accent colors (for syntax highlighting)
-$penumbra-red: #CB7459;      // keywords, errors
-$penumbra-yellow: #A38F2D;   // strings, constants
-$penumbra-green: #46A473;    // comments, documentation
-$penumbra-cyan: #00A0BE;     // functions, methods
-$penumbra-blue: #7E87D6;     // types, classes
-$penumbra-magenta: #BD72A8;  // operators, punctuation
-
-// Universal Penumbra light theme for all syntax highlighting
-.highlight {
-  background-color: $penumbra-sun !important;
-  color: $penumbra-sky !important;
-  border-radius: 4px;
-  padding: 1rem;
-  overflow-x: auto;
-  border-left: 3px solid var(--primary-color);
-  margin: 1rem 0;
-}
-
 .highlighter-rouge .highlight {
-  background-color: $penumbra-sun !important;
-  color: $penumbra-sky !important;
+  background-color: #f8f8f8;
   border-radius: 4px;
   padding: 1rem;
   overflow-x: auto;
@@ -850,126 +744,10 @@ $penumbra-magenta: #BD72A8;  // operators, punctuation
   margin: 1rem 0;
 }
 
-// Syntax highlighting colors - applies to all .highlight containers
-.highlight {
-  // Line numbers
-  .lineno {
-    color: $penumbra-sky-minus !important;
-    margin-right: 0.8rem;
-    user-select: none;
-  }
-  
-  // Comments (all types)
-  .c, .c1, .cm, .cs, .cp, .cpf {
-    color: $penumbra-green !important;
-    font-style: italic;
-  }
-  
-  // Keywords (def, class, if, else, for, import, etc.)
-  .k, .kn, .kp, .kr, .kt, .kc, .kd {
-    color: $penumbra-red !important;
-    font-weight: bold;
-  }
-  
-  // Strings (all types)
-  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sa, .sr {
-    color: $penumbra-yellow !important;
-  }
-  
-  // Numbers (all types)
-  .m, .mf, .mh, .mi, .mo, .mb, .mx {
-    color: $penumbra-magenta !important;
-  }
-  
-  // Function names
-  .nf, .fm {
-    color: $penumbra-cyan !important;
-    font-weight: bold;
-  }
-  
-  // Class names and types
-  .nc, .nt {
-    color: $penumbra-blue !important;
-    font-weight: bold;
-  }
-  
-  // Variables and identifiers
-  .n, .na, .nb, .nd, .ne, .ni, .nl, .nn, .no, .nv, .nx {
-    color: $penumbra-sky !important;
-  }
-  
-  // Operators
-  .o, .ow, .op {
-    color: $penumbra-magenta !important;
-  }
-  
-  // Punctuation and delimiters
-  .p, .punct {
-    color: $penumbra-sky !important;
-  }
-  
-  // Built-in functions and exceptions
-  .nb, .ne, .ni {
-    color: $penumbra-blue !important;
-  }
-  
-  // Decorators and annotations
-  .nd, .na {
-    color: $penumbra-cyan !important;
-  }
-  
-  // Special keywords (self, this, null, true, false)
-  .bp, .kc {
-    color: $penumbra-red !important;
-    font-style: italic;
-  }
-  
-  // Error highlighting
-  .err {
-    color: $penumbra-red !important;
-    background-color: rgba(203, 116, 89, 0.1) !important;
-  }
-  
-  // Generic highlighting
-  .g, .gd, .ge, .gr, .gh, .gi, .go, .gp, .gs, .gu, .gt {
-    color: $penumbra-sky !important;
-  }
-  
-  // Line highlighting and whitespace
-  .hl {
-    background-color: rgba(190, 190, 190, 0.1) !important;
-  }
-  
-  .w {
-    color: $penumbra-sky !important;
-  }
-}
+// =================
+// CUSTOM COMPONENTS
+// =================
 
-// Enhanced code block styling for better readability
-pre, code {
-  font-family: 'Fira Code', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  font-size: 0.9em;
-}
-
-pre {
-  line-height: 1.4;
-  tab-size: 2;
-}
-
-// Inline code styling
-:not(pre) > code {
-  background-color: rgba(190, 190, 190, 0.1);
-  color: $penumbra-shade;
-  padding: 0.1em 0.3em;
-  border-radius: 3px;
-  font-size: 0.85em;
-}
-
-// ================================
-// CUSTOM ADDITIONS
-// ================================
-
-// Recipe list styling
 .recipe-item {
   margin-bottom: 1.5rem;
   
@@ -982,7 +760,6 @@ pre {
       
       &:hover {
         color: var(--secondary-color);
-        text-decoration: underline;
       }
     }
   }
@@ -1000,52 +777,9 @@ pre {
   }
 }
 
-.recipe-separator {
-  border: none;
-  height: 2px;
-  background: linear-gradient(to right, transparent, $grey-color, transparent);
-  margin: 2rem 0;
-}
-
-// Default separator styling - applies to all <hr> elements and .separator class
 hr, .separator {
   border: none;
   height: 2px;
   background: linear-gradient(to right, transparent, $grey-color, transparent);
   margin: 2rem 0;
-}
-
-// You can add your own custom styles here
-// For example:
-
-// .custom-class {
-//   // Your custom styles
-// }
-
-// Override any of the above styles by adding them here
-// SCSS variables can be redefined and styles can be overridden
-
-// Test Penumbra syntax highlighting with direct colors
-.highlight {
-  background-color: #FFF7ED !important;
-  color: #8F8F8F !important;
-  border-radius: 4px;
-  padding: 1rem;
-  overflow-x: auto;
-  border-left: 3px solid var(--primary-color);
-  margin: 1rem 0;
-  
-  .k {
-    color: #CB7459 !important;
-    font-weight: bold;
-  }
-  
-  .s {
-    color: #A38F2D !important;
-  }
-  
-  .c {
-    color: #46A473 !important;
-    font-style: italic;
-  }
 }

@@ -17,7 +17,7 @@ Welcome to my recipe collection! Here you'll find various recipes I've tried and
       <p class="recipe-excerpt">{{ recipe.excerpt }}</p>
     {% endif %}
   </div>
-  <hr class="recipe-separator">
+  <hr class="separator">
 {% endfor %}
 
 {% if site.recipes.size == 0 %}
