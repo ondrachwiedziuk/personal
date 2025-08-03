@@ -4,12 +4,19 @@ layout: default
 
 <article class="photo-page">
   <header class="photo-header">
-    <nav class="photo-nav">
-      <a href="{{ page.gallery_url | relative_url }}" class="back-to-gallery">← Back to {{ page.gallery_title }}</a>
+    <nav class="photo-nav-bar">
+      <a href="{{ page.prev_photo.url | relative_url }}" class="nav-button prev-photo" title="Previous: {{ page.prev_photo.title }}">
+        <img src="{{ '/assets/images/Left_arrow.svg' | relative_url }}" alt="Previous" class="nav-arrow">
+      </a>
+      
+      <a href="{{ page.gallery_url | relative_url }}" class="button back-to-gallery">
+        Back to {{ page.gallery_title }}
+      </a>
+      
+      <a href="{{ page.next_photo.url | relative_url }}" class="nav-button next-photo" title="Next: {{ page.next_photo.title }}">
+        <img src="{{ '/assets/images/Right_arrow.svg' | relative_url }}" alt="Next" class="nav-arrow">
+      </a>
     </nav>
-    {%- if page.title -%}
-      <h1 class="photo-title">{{ page.title | escape }}</h1>
-    {%- endif -%}
   </header>
 
   <div class="photo-container">

@@ -52,7 +52,7 @@ collections:
     permalink: /:collection/:name/
   galleries:
     output: true
-    permalink: /:collection/:name/
+    permalink: /photos/:name/
 
 # Header pages for navigation
 header_pages:

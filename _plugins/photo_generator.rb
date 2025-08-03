@@ -8,18 +8,26 @@ module Jekyll
         gallery_slug = gallery.data['slug']
         gallery_title = gallery.data['title']
         gallery_url = gallery.url
+        photos = gallery.data['photos']
         
-        next unless gallery.data['photos']
+        next unless photos
         
-        gallery.data['photos'].each do |photo|
-          site.pages << PhotoPage.new(site, gallery_slug, gallery_title, gallery_url, photo)
+        photos.each_with_index do |photo, index|
+          # Calculate previous and next photos (with wrap-around)
+          prev_index = index == 0 ? photos.length - 1 : index - 1
+          next_index = index == photos.length - 1 ? 0 : index + 1
+          
+          prev_photo = photos[prev_index]
+          next_photo = photos[next_index]
+          
+          site.pages << PhotoPage.new(site, gallery_slug, gallery_title, gallery_url, photo, prev_photo, next_photo)
         end
       end
     end
   end
 
   class PhotoPage < Page
-    def initialize(site, gallery_slug, gallery_title, gallery_url, photo)
+    def initialize(site, gallery_slug, gallery_title, gallery_url, photo, prev_photo, next_photo)
       @site = site
       @base = site.source
       @dir = "photos/#{gallery_slug}"
@@ -35,6 +43,19 @@ module Jekyll
         'gallery_slug' => gallery_slug,
         'gallery_title' => gallery_title,
         'gallery_url' => gallery_url
+      }
+      
+      # Add navigation data
+      self.data['prev_photo'] = {
+        'filename' => prev_photo['filename'],
+        'title' => prev_photo['title'] || prev_photo['filename'],
+        'url' => "/photos/#{gallery_slug}/#{prev_photo['filename'].gsub(/\.[^.]+$/, '')}.html"
+      }
+      
+      self.data['next_photo'] = {
+        'filename' => next_photo['filename'],
+        'title' => next_photo['title'] || next_photo['filename'],
+        'url' => "/photos/#{gallery_slug}/#{next_photo['filename'].gsub(/\.[^.]+$/, '')}.html"
       }
       
       # Add optional data if present
