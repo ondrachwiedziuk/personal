@@ -31,6 +31,19 @@ github_username:  ondrachwiedziuk
 theme: minima
 plugins:
   - jekyll-feed
+  - jektex
+
+# JekTeX configuration
+jektex:
+  cache_dir: ".jektex-cache"
+  ignore: ["*.xml"]
+  silent: false
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\R", "\\mathbb{R}"]
+    - ["\\N", "\\mathbb{N}"]
+    - ["\\Z", "\\mathbb{Z}"]
+    - ["\\C", "\\mathbb{C}"]
 
 # Collections
 collections:
@@ -59,3 +72,4 @@ exclude:
   - _layouts/home.html
   - assets/photos/originals/
   - GALLERY_README.md
+  - .jektex-cache
