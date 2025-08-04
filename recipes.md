@@ -4,6 +4,8 @@ title: Recipes
 permalink: /recipes/
 ---
 
+# Under Construction
+
 Welcome to my recipe collection! Here you'll find various recipes I've tried and enjoyed.
 
 {% assign sorted_recipes = site.recipes | sort: 'date' | reverse %}
