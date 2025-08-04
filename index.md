@@ -22,21 +22,17 @@ I also like to travel, and I have been to several countries in Europe, from whic
 
 ## What You'll Find Here
 
-### <span class="button">[Recipes](/recipes/)</span>
-Some of my recipes, it is written as a Python code snippets, which you can run and it will compute the amount of ingredients you need for the number of servings you want to cook. 
-
-
-### <span class="button">[Projects](/projects/)</span>
-A showcase of my not only programming projects I was working on.
-
-
 ### <span class="button">[Study](/study/)</span>
 Notes, insights, and resources from my ongoing learning journey. It also includes courses I have taught or assisted with, and resources for students.
-
 
 ### <span class="button">[Research](/research/)</span>
 My research interests, findings, and academic work.
 
+### <span class="button">[Projects](/projects/)</span>
+A showcase of my not only programming projects I was working on.
 
 ### <span class="button">[Photos](/photos/)</span>
 Photos of places I have visited which I decided to share.
+
+### <span class="button">[Recipes](/recipes/)</span>
+Some of my recipes, it is written as a Python code snippets, which you can run and it will compute the amount of ingredients you need for the number of servings you want to cook. 

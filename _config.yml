@@ -56,11 +56,11 @@ collections:
 
 # Header pages for navigation
 header_pages:
-  - recipes.md
-  - projects.md
   - study.md
   - research.md
+  - projects.md
   - photos.md
+  - recipes.md
 
 # Minima settings
 minima:
