@@ -58,9 +58,11 @@ process_gallery() {
         if [ ! -f "$thumb_file" ] || [ "$orig_file" -nt "$thumb_file" ]; then
             echo "    Creating thumbnail..."
             $CONVERT_CMD "$orig_file" \
+                -auto-orient \
                 -resize "400x400>" \
                 -quality 85 \
                 -strip \
+                +repage \
                 "$thumb_file"
         fi
         
@@ -68,9 +70,11 @@ process_gallery() {
         if [ ! -f "$full_file" ] || [ "$orig_file" -nt "$full_file" ]; then
             echo "    Creating web-optimized version..."
             $CONVERT_CMD "$orig_file" \
+                -auto-orient \
                 -resize "1200x1200>" \
                 -quality 90 \
                 -strip \
+                +repage \
                 "$full_file"
         fi
     done
