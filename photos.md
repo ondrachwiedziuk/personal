@@ -4,36 +4,25 @@ title: Photos
 permalink: /photos/
 ---
 
-# Photo Galleries
+Welcome to my photo gallery collection! Here you'll find various photo galleries organized by theme and location.
 
-Explore my photography collections organized by theme and location.
+{% assign sorted_galleries = site.galleries | sort: 'date' | reverse %}
+{% for gallery in sorted_galleries %}
+  <div class="posts-item">
+    <h3><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></h3>
+    {% if gallery.date %}
+      <p class="posts-date">{{ gallery.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+    {% if gallery.description %}
+      <p class="posts-description">{{ gallery.description }}</p>
+    {% endif %}
+    {% if gallery.photos %}
+      <p class="posts-photo-count">{{ gallery.photos.size }} photos</p>
+    {% endif %}
+  </div>
+  <hr class="separator">
+{% endfor %}
 
-<hr class="separator">
-
-<div class="galleries-grid">
-  {%- for gallery in site.galleries -%}
-    <div class="gallery-preview">
-      <a href="{{ gallery.url | relative_url }}" class="gallery-preview-link">
-        {%- if gallery.cover_photo -%}
-          <img src="{{ '/assets/photos/thumbnails/' | append: gallery.slug | append: '/' | append: gallery.cover_photo | relative_url }}" 
-               alt="{{ gallery.title }}" 
-               class="gallery-preview-image"
-               loading="lazy">
-        {%- endif -%}
-        <div class="gallery-preview-info">
-          <h3 class="gallery-preview-title">{{ gallery.title }}</h3>
-          {%- if gallery.description -%}
-            <p class="gallery-preview-description">{{ gallery.description }}</p>
-          {%- endif -%}
-          {%- if gallery.photos -%}
-            <p class="gallery-preview-count">{{ gallery.photos.size }} photos</p>
-          {%- endif -%}
-        </div>
-      </a>
-    </div>
-  {%- endfor -%}
-</div>
-
-{%- if site.galleries.size == 0 -%}
-  <p class="no-galleries">No galleries available yet. Check back soon!</p>
-{%- endif -%}
+{% if site.galleries.size == 0 %}
+  <p>No galleries yet. Check back soon!</p>
+{% endif %}
