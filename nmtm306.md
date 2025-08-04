@@ -14,7 +14,7 @@ Obsahy a objemy útvarů vzniklých z kuželoseček. Konkrétněji objem rotačn
 
 ### Otázka 3 (O): Určete objem úseče tělesa ohraničeného rotačním paraboloidem a rovinou kolmou k jeho ose pomocí Archimédovy metody
 
-![Parabolicka usec](images/parabolicka-usec.png "Parabolická úseč")
+![Parabolicka usec](/assets/images/parabolicka-usec.png "Parabolická úseč")
 
 $$ \frac{A\Delta}{A\Sigma} = \frac{B\Delta^2}{\Xi \Sigma^2} $$
 
@@ -47,7 +47,7 @@ Z toho vyplývá, že těžiště je ve dvou třetinách parabolické úseče.
 
 ### Otázka 5 (O): Určete objem koule pomocí Archimédovy metody.
 
-![Objem koule](images/koule.png "Objem koule")
+![Objem koule](/assets/images/koule.png "Objem koule")
 
 $$ M\Sigma \cdot \Sigma\Pi = \Gamma A \cdot A\Sigma = A\Xi^2 = \Xi\Sigma^2 + \Sigma\Pi^2 $$
 
@@ -161,7 +161,7 @@ Název vychází ze zadání úlohy z Euklidových Základů, kdy k danému čtv
 
 ### Otázka 22 (O): Jak Apollónios odvodil charakteristickou vlastnost (dnes bychom řekli rovnici) paraboly jako řezu kuželové plochy, na jejímž základě ji také pojmenoval?
 
-![Řez kuželu](images/rez-kuzelu.png "Řez kuželu")
+![Řez kuželu](/assets/images/rez-kuzelu.png "Řez kuželu")
 
 Z Thalétovy kružnice plyne, že $$\lvert KX \rvert^2 = \lvert MX \rvert \cdot \lvert XN \rvert$$. Jelikož je řez rovnoběžný s přímkou $$AG$$, tak $$\lvert XN \rvert = 
 \lvert HG \rvert$$. Z podobnosti trojuhelníků $$VMX$$ a $$VBH$$ plyne $$\frac{\lvert MX \rvert}{\lvert BH \rvert} = \frac{\lvert VX \rvert}{\lvert VH \rvert}$$. Proto:
@@ -187,7 +187,7 @@ Tento tvar naznačuje, že zde něco "chybí", tedy že od daného obdélníku o
 První práce s kuželosečkami se nám dochovala v zlomcích spisů Řeka jménem **Menaichmos** ve 4. stol. př. n. l.
 ### Otázka 25 (O): Naznačte podstatu Avicennovy konstrukce paraboly
 
-![Avicenna](images/avicenna.png "Avicenna konstrukce")
+![Avicenna](/assets/images/avicenna.png "Avicenna konstrukce")
 
 Dle Euklidovy věty víme, že $$v^2 = c_a \cdot c_b$$. Zde platí, že pro každou jednu kružnici s průměrem minimálně $$p$$ platí, že $$y^2 = px$$, což je rovnice paraboly.
 
