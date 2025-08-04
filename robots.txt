@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chwiedziuk.cz/sitemap.xml
+
+# Disallow crawling of admin/development files
+Disallow: /_site/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Disallow: /vendor/
+
+# Allow crawling of main content
+Allow: /recipes/
+Allow: /photos/
+Allow: /projects/
+Allow: /study/
+Allow: /research/
+Allow: /assets/
