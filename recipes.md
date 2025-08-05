@@ -4,9 +4,7 @@ title: Recipes
 permalink: /recipes/
 ---
 
-# Under Construction
-
-Welcome to my recipe collection! Here you'll find various recipes I've tried and enjoyed.
+Welcome to my recipe collection! Here you'll find various recipes I've cooked during summer camps and other occasions. Each recipe is written in a Python-like syntax, allowing you to easily adjust the ingredients based on the number of servings you want to prepare.
 
 {% assign sorted_recipes = site.recipes | sort: 'date' | reverse %}
 {% for recipe in sorted_recipes %}
