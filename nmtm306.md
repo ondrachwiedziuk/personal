@@ -166,7 +166,9 @@ Název vychází ze zadání úlohy z Euklidových Základů, kdy k danému čtv
 Z Thalétovy kružnice plyne, že $$\lvert KX \rvert^2 = \lvert MX \rvert \cdot \lvert XN \rvert$$. Jelikož je řez rovnoběžný s přímkou $$AG$$, tak $$\lvert XN \rvert = 
 \lvert HG \rvert$$. Z podobnosti trojuhelníků $$VMX$$ a $$VBH$$ plyne $$\frac{\lvert MX \rvert}{\lvert BH \rvert} = \frac{\lvert VX \rvert}{\lvert VH \rvert}$$. Proto:
 
-$$ \lvert KX \rvert^2 = \lvert MX \rvert \cdot \lvert XN \rvert = \frac{\lvert VX \rvert \cdot \lvert BH \rvert}{\lvert VH \rvert} \cdot \lvert HG \rvert = \lvert VX \rvert \cdot \frac{\lvert BH \rvert \cdot \lvert HG \rvert}{\lvert VH \rvert} $$
+$$ \lvert KX \rvert^2 = \lvert MX \rvert \cdot \lvert XN \rvert = $$
+$$ = \frac{\lvert VX \rvert \cdot \lvert BH \rvert}{\lvert VH \rvert} \cdot \lvert HG \rvert = $$
+$$ = \lvert VX \rvert \cdot \frac{\lvert BH \rvert \cdot \lvert HG \rvert}{\lvert VH \rvert} $$
 
 Nyní konstantu $$\frac{\lvert BH \rvert \cdot \lvert HG \rvert}{\lvert VH \rvert}$$ označíme jako $$p$$ a také $$\lvert KX \rvert = y$$ a $$\lvert VX \rvert = x$$. Tedy dostaneme hledaný vztah $$y^2 = px$$.
 
