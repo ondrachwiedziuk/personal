@@ -66,6 +66,10 @@ header_pages:
 minima:
   date_format: "%b %-d, %Y"
 
+# Include files that should be copied without processing
+include:
+  - googlee10a682c15c025b1.html
+
 # Exclude specific auto-generated files that may appear
 exclude:
   - assets/images/README.md
