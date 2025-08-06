@@ -10,6 +10,10 @@ permalink: /research/
 
 **Seminar Thesis:** [Goniometrie v antice](/assets/files/goniometrie-v-antice.pdf) ![Flag](/assets/images/flag.webp){: .flag}
 
+# Research Experiences
+
+**REU Program:** [DIMACS REU 2023](https://reu.dimacs.rutgers.edu/~oc184/) - Research Experience for Undergraduates at Rutgers University
+
 # Papers
 
 ## Preprints
