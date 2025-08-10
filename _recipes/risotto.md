@@ -44,5 +44,5 @@ def risotto(servings):
     pot.add(parmesan * servings)
     pot.add(butter * servings)
 
-    pot.serve()
+    return pot.contents
 ```

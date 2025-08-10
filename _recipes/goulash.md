@@ -38,5 +38,5 @@ def goulash(servings):
     pot.add(tea)
     pot.simmer(60, "minutes")
 
-    pot.serve()
+    return pot.contents
 ```
