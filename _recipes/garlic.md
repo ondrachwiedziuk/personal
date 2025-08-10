@@ -17,7 +17,7 @@ salt = Ingredient("salt", 3, "teaspoon")
 
 ```python
 @recipe
-def minced_garlic(serving):
+def minced_garlic(servings):
     garlic.peel()
 
     blender = Tool("blender")
