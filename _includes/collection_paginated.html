@@ -1,0 +1,84 @@
+{%- assign collection = site[include.collection_name] -%}
+{%- assign sorted_items = collection | sort: 'date' | reverse -%}
+
+{%- if page.page_items -%}
+  {%- assign items = page.page_items -%}
+{%- else -%}
+  {%- comment %}Page 1 fallback (no page.page_items provided){% endcomment -%}
+  {%- assign per_page = include.per_page | default: 15 -%}
+  {%- assign total_items = sorted_items | size -%}
+  {%- if include.total_pages -%}
+    {%- assign total_pages = include.total_pages -%}
+  {%- else -%}
+    {%- assign quotient = total_items | divided_by: per_page -%}
+    {%- assign used = quotient | times: per_page -%}
+    {%- assign remainder = total_items | minus: used -%}
+    {%- assign total_pages = quotient -%}
+    {%- if total_items > per_page and remainder > 0 -%}
+      {%- assign total_pages = total_pages | plus: 1 -%}
+    {%- endif -%}
+    {%- if total_pages == 0 -%}{%- assign total_pages = 1 -%}{%- endif -%}
+  {%- endif -%}
+  {%- assign items = sorted_items | slice: 0, per_page -%}
+  {%- assign page_number = 1 -%}
+{%- endif -%}
+
+{%- if page.page_items -%}
+  {%- assign page_number = include.page -%}
+  {%- assign per_page = include.per_page -%}
+  {%- assign total_pages = include.total_pages -%}
+  {%- assign total_items = page.total_items -%}
+{%- endif -%}
+
+{%- for item in items -%}
+  <div class="posts-item">
+    <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+    {%- if item.date -%}
+      <p class="posts-date">{{ item.date | date: "%B %d, %Y" }}</p>
+    {%- endif -%}
+    {%- if include.collection_name == 'recipes' and item.excerpt -%}
+      <p class="posts-excerpt">{{ item.excerpt }}</p>
+    {%- endif -%}
+    {%- if include.collection_name == 'galleries' and item.description -%}
+      <p class="posts-description">{{ item.description }}</p>
+    {%- endif -%}
+    {%- if include.collection_name == 'galleries' and item.photos -%}
+      <p class="posts-photo-count">{{ item.photos.size }} photos</p>
+    {%- endif -%}
+  </div>
+  <hr class="separator">
+{%- endfor -%}
+
+{%- if total_items == 0 -%}
+  <p>No {{ include.collection_name }} yet. Check back soon!</p>
+{%- endif -%}
+
+{%- if total_pages > 1 -%}
+  <div class="photo-nav-bar collection-nav">
+    {%- assign prev_page = page_number | minus: 1 -%}
+    {%- assign next_page = page_number | plus: 1 -%}
+    {%- if prev_page >= 1 -%}
+      {%- if prev_page == 1 -%}
+        <a class="nav-button prev-photo" href="{{ include.base_path | relative_url }}" aria-label="Previous page">
+          <svg class="nav-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </a>
+      {%- else -%}
+        <a class="nav-button prev-photo" href="{{ include.base_path | append: '/page/' | append: prev_page | relative_url }}" aria-label="Previous page">
+          <svg class="nav-arrow" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path fill="currentColor" d="M60 10 L40 10 L10 50 L40 90 L60 90 L30 50 Z"/></svg>
+        </a>
+      {%- endif -%}
+    {%- else -%}
+      <span class="nav-button prev-photo disabled" aria-hidden="true"></span>
+    {%- endif -%}
+
+    <span class="back-to-gallery page-indicator" aria-current="page">{{ page_number }}/{{ total_pages }}</span>
+
+    {%- if next_page <= total_pages -%}
+      <a class="nav-button next-photo" href="{{ include.base_path | append: '/page/' | append: next_page | relative_url }}" aria-label="Next page">
+        <svg class="nav-arrow" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path fill="currentColor" d="M40 10 L60 10 L90 50 L60 90 L40 90 L70 50 Z"/></svg>
+      </a>
+    {%- else -%}
+      <span class="nav-button next-photo disabled" aria-hidden="true"></span>
+    {%- endif -%}
+  </div>
+{%- endif -%}
