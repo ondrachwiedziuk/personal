@@ -35,4 +35,4 @@ A showcase of my not only programming projects I was working on.
 Photos of places I have visited which I decided to share.
 
 ### <span class="button">[Recipes](/recipes/)</span>
-Some of my recipes, it is written as a Python code snippets, which you can run and it will compute the amount of ingredients you need for the number of servings you want to cook. 
+Some of my recipes, it is written as a Python code snippets, which, someday, you will be able to run and it will compute the amount of ingredients you need for the number of servings you want to cook, but now it is in progress.
