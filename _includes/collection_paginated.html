@@ -60,7 +60,7 @@
     {%- if prev_page >= 1 -%}
       {%- if prev_page == 1 -%}
         <a class="nav-button prev-photo" href="{{ include.base_path | relative_url }}" aria-label="Previous page">
-          <svg class="nav-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+          <svg class="nav-arrow" viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M60 10 L40 10 L10 50 L40 90 L60 90 L30 50 Z"/></svg>
         </a>
       {%- else -%}
         <a class="nav-button prev-photo" href="{{ include.base_path | append: '/page/' | append: prev_page | relative_url }}" aria-label="Previous page">
