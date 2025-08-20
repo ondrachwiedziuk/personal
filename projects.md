@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 I have worked on the following projects. These can be either smaller projects that I worked on alone, or larger ones that require team collaboration and whose development is still ongoing.
 
 ## Sportmatiq

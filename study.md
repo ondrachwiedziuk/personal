@@ -4,7 +4,7 @@ title: Study
 permalink: /study/
 ---
 
-# Lecture Notes
+## Lecture Notes
 
 **[Kryptografie na eliptických křivkách](/assets/files/ECC.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
 
@@ -14,15 +14,15 @@ permalink: /study/
 
 **[Dějiny matematiky 2 (NMTM306)](/nmtm306/)** ![Flag](/assets/images/flag.webp){: .flag}
 
-# Teaching
+## Teaching
 
 **[IPS (NDMI050)](https://mj.ucw.cz/vyuka/2526/ips/)** ![Flag](/assets/images/flag.webp){: .flag}
 
 **[Algebra 1 (NMAI062)](/nmai062/)** ![Flag](/assets/images/flag.webp){: .flag}
 
-## Past Courses
+### Past Courses
 
-### 2024/25
+#### 2024/25
 
 **[IPS (NDMI050)](https://mj.ucw.cz/vyuka/2425/ips/)** ![Flag](/assets/images/flag.webp){: .flag}
 
