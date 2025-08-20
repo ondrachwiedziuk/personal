@@ -4,17 +4,17 @@ layout: default
 
 <article class="photo-page">
   <header class="photo-header">
-    <nav class="photo-nav-bar">
+  <nav class="photo-nav-bar" role="navigation" aria-label="Photo navigation">
       <a href="{{ page.prev_photo.url | relative_url }}" class="nav-button prev-photo" title="Previous: {{ page.prev_photo.title }}">
-        <img src="{{ '/assets/images/Left_arrow.svg' | relative_url }}" alt="Previous" class="nav-arrow">
+        <svg class="nav-arrow" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path fill="currentColor" d="M60 10 L40 10 L10 50 L40 90 L60 90 L30 50 Z"/></svg>
+        <span class="sr-only">Previous</span>
       </a>
       
-      <a href="{{ page.gallery_url | relative_url }}" class="button back-to-gallery">
-        Back to {{ page.gallery_title }}
-      </a>
+  <a href="{{ page.gallery_url | relative_url }}" class="back-to-gallery" title="Back to gallery"><b>Back to {{ page.gallery_title }}</b></a>
       
       <a href="{{ page.next_photo.url | relative_url }}" class="nav-button next-photo" title="Next: {{ page.next_photo.title }}">
-        <img src="{{ '/assets/images/Right_arrow.svg' | relative_url }}" alt="Next" class="nav-arrow">
+        <svg class="nav-arrow" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path fill="currentColor" d="M40 10 L60 10 L90 50 L60 90 L40 90 L70 50 Z"/></svg>
+        <span class="sr-only">Next</span>
       </a>
     </nav>
   </header>
