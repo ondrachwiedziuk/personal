@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Risotto"
+title: "Risotto di Milano"
 date: 2025-08-05
 excerpt: "A creamy italian risotto with saffron recipe."
 ---

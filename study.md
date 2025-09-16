@@ -6,6 +6,8 @@ permalink: /study/
 
 ## Lecture Notes
 
+**[Topologická analýza dat](/assets/files/TDA.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
+
 **[Kryptografie na eliptických křivkách](/assets/files/ECC.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
 
 **[Teorie čísel a RSA](/assets/files/RSA.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
