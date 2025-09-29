@@ -4,11 +4,11 @@ title: Algebra 1 (NMAI062)
 permalink: /nmai062/
 ---
 
-Toto je stránka českého cvičení předmětu Algebra 1 ([NMAI062](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI062)), konajícího se v úterý od 10:40 v S7. Přednášku vede Alexey Barsukov.
+Toto je stránka českého cvičení předmětu Algebra 1 ([NMAI062](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI062)), konajícího se v úterý od 10:40 v S7. Přednášku vede [Alexey Barsukov](https://www2.karlin.mff.cuni.cz/~barsukov/teaching.html).
 
 # Podmínky zápočtu
 
-Každý týden bude zadána jedna úloha, celkem tedy 12. Pro získání zápočtu je třeba správně odevzdat zhruba 60 % úloh, tedy 7. Na vypracování každé úlohy máte 2 týdny. Podmínky se ještě můžou v průběhu tohoto týdne změnit. V případě, že budete mít problém splnit zápočet, mi napište a domluvíme se individuálně.
+Každý týden bude zadána jedna úloha, celkem tedy 12. Pro získání zápočtu je třeba správně odevzdat zhruba 60 % úloh, tedy 7. Na vypracování každé úlohy máte čas do dalšího cvičení. Podmínky se ještě můžou v průběhu tohoto týdne změnit. V případě, že budete mít problém splnit zápočet, mi napište a domluvíme se individuálně.
 
 Úlohy budou odevzdávány prostřednictvím [Sovičky](https://owl.mff.cuni.cz/join/4730c2aabf8d), token: 4730c2aabf8d.
 
