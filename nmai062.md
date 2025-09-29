@@ -4,4 +4,24 @@ title: Algebra 1 (NMAI062)
 permalink: /nmai062/
 ---
 
-# Under Construction
+Toto je stránka českého cvičení předmětu Algebra 1 ([NMAI062](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI062)), konajícího se v úterý od 10:40 v S7. Přednášku vede Alexey Barsukov.
+
+# Podmínky zápočtu
+
+Každý týden bude zadána jedna úloha, celkem tedy 12. Pro získání zápočtu je třeba správně odevzdat zhruba 60 % úloh, tedy 7. Na vypracování každé úlohy máte 2 týdny. Podmínky se ještě můžou v průběhu tohoto týdne změnit. V případě, že budete mít problém splnit zápočet, mi napište a domluvíme se individuálně.
+
+Úlohy budou odevzdávány prostřednictvím [Sovičky](https://owl.mff.cuni.cz/join/4730c2aabf8d), token: 4730c2aabf8d.
+
+Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat každý samostatně. Je zakázáno si řešení generovat pomocí LLM, avšak konzultace typu: "Jak funguje počítání pomocí čínské věty o zbytcích?" je povoleno. Je povoleno používat tvrzení ve [skriptech](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_cz.pdf) a ze základních kurzů prvních dvou ročníků, tvrzení odjinud je třeba dokázat.
+
+# Zadání cvičení
+
+**[30. 9. Eukleidés a Bézout](/assets/files/cv_01.pdf)**
+
+# Materiály
+
+[Skripta DS](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_cz.pdf)
+
+[Skripta DS pro matematiky](https://www.karlin.mff.cuni.cz/~stanovsk/vyuka/2425/algebra22.pdf)
+
+[Zadání a řešení cvičení JŽ](https://www.karlin.mff.cuni.cz/~zemlicka/23-24/vyuka.htm)
