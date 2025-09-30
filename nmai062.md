@@ -8,7 +8,7 @@ Toto je stránka českého cvičení předmětu Algebra 1 ([NMAI062](https://is.
 
 # Podmínky zápočtu
 
-Každý týden bude zadána jedna úloha, celkem tedy 12. Pro získání zápočtu je třeba správně odevzdat zhruba 60 % úloh, tedy 7. Na vypracování každé úlohy máte čas do dalšího cvičení. Podmínky se ještě můžou v průběhu tohoto týdne změnit. V případě, že budete mít problém splnit zápočet, mi napište a domluvíme se individuálně.
+Každý týden bude zadána jedna úloha, celkem tedy 12. Pro získání zápočtu je třeba správně odevzdat zhruba 60 % úloh, tedy 7. Na vypracování každé úlohy máte čas do cvičení o 2 týdny později. Podmínky se ještě můžou v průběhu tohoto týdne změnit. V případě, že budete mít problém splnit zápočet, mi napište a domluvíme se individuálně.
 
 Úlohy budou odevzdávány prostřednictvím [Sovičky](https://owl.mff.cuni.cz/join/4730c2aabf8d), token: 4730c2aabf8d.
 
