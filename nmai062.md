@@ -25,3 +25,5 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 [Skripta DS pro matematiky](https://www.karlin.mff.cuni.cz/~stanovsk/vyuka/2425/algebra22.pdf)
 
 [Zadání a řešení cvičení JŽ](https://www.karlin.mff.cuni.cz/~zemlicka/23-24/vyuka.htm)
+
+[Kniha Počítačová algebra od LB a DS](https://www.karlin.mff.cuni.cz/~barto/student/skripta_palg.pdf)
