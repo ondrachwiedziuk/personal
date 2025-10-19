@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-![Ondřej Chwiedziuk](/assets/images/profile.jpg){: .profile-image}
+![Ondřej Chwiedziuk](/assets/images/ondra-square.png){: .profile-image}
 
 Hi! I'm Ondřej Chwiedziuk, and this is my personal website on the web where I share my interests, projects, and other random stuff.
 
