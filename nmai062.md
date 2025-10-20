@@ -22,6 +22,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[14. 10. Okruhy, obory a tělesa](/assets/files/cv_03.pdf)**
 
+**[21. 10. Polynomy](/assets/files/cv_04.pdf)**
+
 # Materiály
 
 [Skripta DS](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_cz.pdf)
