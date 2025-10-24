@@ -12,7 +12,7 @@ I study masters mathematical structures at the Faculty of Mathematics and Physic
 
 Beside that, I enjoy programming of small projects, mainly in Python, but also in Rust and other languages.
 
-I am a long term member of Spolek Matfyzák, where I currently serve as a náčelník (chairman), and an organizer of mathematical competition called Náboj and a computer science competition called ZISK. Beside this, I also help with organizing the Spring school of the Department of Algebra at Charles University.
+I am a long term member of [Spolek Matfyzák](https://matfyzak.cz/wp/), where I currently serve as a náčelník (chairman), and an organizer of mathematical competition called [Náboj](https://math.naboj.org/cz/cs/) and a computer science competitions [KSP](https://ksp.mff.cuni.cz/) and [ZISK](https://zisk-go.com/). Beside this, I also help with organizing the [Spring school](https://karlin.mff.cuni.cz/~skolavprirode/) of the Department of Algebra at Charles University.
 
 In last few years, I have been cooking on several summer camps, including KSP, PraSe and Iksko. I collected some of my recipes and cooking experiences in the [Recipes](/recipes/) section.
 
