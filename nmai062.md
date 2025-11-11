@@ -26,6 +26,9 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[4. 11. Dělitelnost v oborech](/assets/files/cv_05.pdf)**
 
+**[11. 11. Gaussova věta a Eisensteinovo kritérium](/assets/files/cv_06.pdf)**
+
+
 # Materiály
 
 [Skripta DS](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_cz.pdf)
