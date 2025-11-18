@@ -28,6 +28,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[11. 11. Gaussova věta a Eisensteinovo kritérium](/assets/files/cv_06.pdf)**
 
+**[18. 11. Gaussovské a Eukleidovské obory](/assets/files/cv_07.pdf)**
+
 
 # Materiály
 
