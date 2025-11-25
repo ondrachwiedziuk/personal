@@ -30,6 +30,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[18. 11. Gaussovské a Eukleidovské obory](/assets/files/cv_07.pdf)**
 
+**[25. 11. Soustavy polynomiálních rovnic](/assets/files/cv_08.pdf)**
+
 
 # Materiály
 
