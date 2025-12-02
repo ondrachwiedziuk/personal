@@ -32,6 +32,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[25. 11. Soustavy polynomiálních rovnic](/assets/files/cv_08.pdf)**
 
+**[2. 12. Aplikace konečných těles](/assets/files/cv_09.pdf)**
+
 
 # Materiály
 
