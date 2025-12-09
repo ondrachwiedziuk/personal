@@ -34,6 +34,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[2. 12. Aplikace konečných těles](/assets/files/cv_09.pdf)**
 
+**[9. 12. Grupy a permutace](/assets/files/cv_10.pdf)**
+
 
 # Materiály
 
