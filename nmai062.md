@@ -49,17 +49,17 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 # Kam po algebře?
 
-**[NMAI076](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI076)** Algebra 2 - navazující kurz, obsahující homomorfismy, Galoisovu teorii a pokročilejší algoritmy na polynomech
+**[NMAI076](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI076)** Algebra 2 -- navazující kurz, obsahující homomorfismy, Galoisovu teorii a pokročilejší algoritmy na polynomech
 
-**[NMMB206](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB206)** Teorie čísel - aplikuje znalosti z tohoto předmětu pro důležité výsledky z teorie čísel, např Millerův–Rabinův test prvočíselnosti
+**[NMMB206](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB206)** Teorie čísel -- aplikuje znalosti z tohoto předmětu pro důležité výsledky z teorie čísel, např Millerův–Rabinův test prvočíselnosti
 
-**[NMMB212](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB212)** Úvod do kryptografie - matematický kurz kryptografie, oproti informatickému má cvičení a nebojí se jít víc do hloubky v asymetrickém šifrování
+**[NMMB212](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB212)** Úvod do kryptografie -- matematický kurz kryptografie, oproti informatickému má cvičení a nebojí se jít víc do hloubky v asymetrickém šifrování
 
-**[NMAG305](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAG305)** Úvod do komutativní algbery - pokračování algebry, rozebírá podrobnějí Galoisovu teorii, úvod do algebraické geometrie a algebraické teorie čísel
+**[NMAG305](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAG305)** Úvod do komutativní algbery -- pokračování algebry, rozebírá podrobnějí Galoisovu teorii, úvod do algebraické geometrie a algebraické teorie čísel
 
-**[NMAI071](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI071)** Matematika++ - informatický úvod do pokročilejší matematiky, každý rok s jiným obsahem, letos se věnuje reprezentacím grup, algebraické geometrii a harmonické analýze
+**[NMAI071](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI071)** Matematika++ -- informatický úvod do pokročilejší matematiky, každý rok s jiným obsahem, letos se věnuje reprezentacím grup, algebraické geometrii a harmonické analýze
 
-**[NMMB337](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB337)** Samoopravné kódy - věnuje se pokročilejším samoopravným kódům vzniklým z algebraických konstrukcí
+**[NMMB337](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMMB337)** Samoopravné kódy -- věnuje se pokročilejším samoopravným kódům vzniklým z algebraických konstrukcí
 
-**[NMAG337](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAG337)** Úvod do teorie grup - rozšiřuje znalosti o konečných grupách a klasifikuje konečně generované abelovské grupy
+**[NMAG337](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAG337)** Úvod do teorie grup -- rozšiřuje znalosti o konečných grupách a klasifikuje konečně generované abelovské grupy
 
