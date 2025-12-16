@@ -36,6 +36,8 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[9. 12. Grupy a permutace](/assets/files/cv_10.pdf)**
 
+**[16. 12. Podgrupy, Lagrangeova věta](/assets/files/cv_11.pdf)**
+
 
 # Materiály
 
