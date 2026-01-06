@@ -22,9 +22,9 @@ permalink: /study/
 
 **[IPS2 (NDMI051)](https://mj.ucw.cz/vyuka/2526/ips2/)** ![Flag](/assets/images/flag.webp){: .flag}
 
-**[Algebra 1 (NMAI062)](/nmai062/)** ![Flag](/assets/images/flag.webp){: .flag}
-
 **[Algebra (NMAG206)](/nmag206/)** ![Flag](/assets/images/flag.webp){: .flag}
+
+**[Algebra 1 (NMAI062)](/nmai062/)** ![Flag](/assets/images/flag.webp){: .flag}
 
 **[Mathematics++ (NMAI071)](/nmai071/)**
 
