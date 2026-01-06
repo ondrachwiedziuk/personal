@@ -38,6 +38,7 @@ Je dovoleno o úlohách diskutovat se spolužáky, avšak řešení musí sepsat
 
 **[16. 12. Podgrupy, Lagrangeova věta](/assets/files/cv_11.pdf)**
 
+**[6. 1. Působení grupy na množině](/assets/files/cv_12.pdf)**
 
 # Materiály
 
