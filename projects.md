@@ -43,3 +43,11 @@ A Python command-line tool for managing tombola (raffle) events. It allows you t
 A website for the traditional seminar of the Department of Algebra at Charles University's Faculty of Mathematics and Physics. The event brings together students,  staff, and guests for academic presentations in English covering topics in algebra, geometry, logic, cryptography, and number theory, combined with outdoor activities in nature. As one of the organizers, I help coordinate the event and co-created this website to manage registrations, present the program, and showcase the event's history spanning over a decade.
 
 ### <span class="button">[More here](https://karlin.mff.cuni.cz/~skolavprirode/)</span>
+
+---
+
+## Swordmap
+
+Swordmap is an open-source Python-based strategy game built with Django that lets players capture and defend zones on a map. Players are divided into teams, and the game logic revolves around claiming adjacent territories, managing team states, and scoring points for strategic control. It includes configuration files for customizing zones and bases, uses a simple web interface for interaction, and runs as a local web application with a server backend.
+
+### <span class="button">[More here](https://github.com/ondrachwiedziuk/swordmap)</span>
