@@ -20,6 +20,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[18. 2. Rewind of algebra, characters](/assets/files/mpp_01.pdf)**
 
+**[25. 2. Fourier analysis](/assets/files/mpp_02.pdf)**
+
 # Recommended literature
 
 TBD
