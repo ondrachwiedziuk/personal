@@ -22,6 +22,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[25. 2. Fourier analysis](/assets/files/mpp_02.pdf)**
 
+**[4. 3. Fourier analysis](/assets/files/mpp_03.pdf)**
+
 # Recommended literature
 
 TBD
