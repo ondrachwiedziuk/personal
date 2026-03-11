@@ -24,6 +24,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[4. 3. Applications of Fourier analysis](/assets/files/mpp_03.pdf)**
 
+**[11. 3. Convolution and Gauss sum](/assets/files/mpp_04.pdf)**
+
 # Recommended literature
 
 TBD
