@@ -26,6 +26,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[11. 3. Convolution and Gauss sum](/assets/files/mpp_04.pdf)**
 
+**[18. 3. Continuous Fourier transform](/assets/files/mpp_05.pdf)**
+
 # Recommended literature
 
 TBD
