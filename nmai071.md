@@ -28,6 +28,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[18. 3. Continuous Fourier transform](/assets/files/mpp_05.pdf)**
 
+**25. 3. Finish rest of problems from previous week, homework solutions**
+
 # Recommended literature
 
 TBD
