@@ -30,6 +30,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **25. 3. Finish rest of problems from previous week, homework solutions**
 
+**[1. 4. Representations of finite groups](/assets/files/mpp_07.pdf)**
+
 # Recommended literature
 
 TBD
