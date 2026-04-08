@@ -32,6 +32,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[1. 4. Representations of finite groups](/assets/files/mpp_07.pdf)**
 
+**[8. 4. Characters](/assets/files/mpp_08.pdf)**
+
 # Recommended literature
 
 TBD
