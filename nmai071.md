@@ -34,6 +34,8 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[8. 4. Characters](/assets/files/mpp_08.pdf)**
 
+**[15. 4. Symmetric groups](/assets/files/mpp_09.pdf)**
+
 # Recommended literature
 
 TBD
