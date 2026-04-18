@@ -6,6 +6,8 @@ permalink: /study/
 
 ## Lecture Notes
 
+**[Teorie her](/assets/files/gt.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
+
 **[Topologická analýza dat](/assets/files/TDA.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
 
 **[Kryptografie na eliptických křivkách](/assets/files/ECC.pdf)** ![Flag](/assets/images/flag.webp){: .flag}
