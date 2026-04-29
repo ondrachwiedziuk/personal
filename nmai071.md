@@ -36,6 +36,10 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[15. 4. Symmetric groups](/assets/files/mpp_09.pdf)**
 
+**22. 4. No tutorial (KSP)**
+
+**[29. 4. Affine geometry](/assets/files/mpp_10.pdf)**
+
 # Recommended literature
 
 TBD
