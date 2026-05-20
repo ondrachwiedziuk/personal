@@ -40,6 +40,10 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 **[29. 4. Affine geometry](/assets/files/mpp_10.pdf)**
 
+**[6. 5. Nullstellensatz and Gröbner bases](/assets/files/mpp_11.pdf)**
+
+**[20. 5. Hilbert polynomials, Bézout’s theorem](/assets/files/mpp_12.pdf)**
+
 # Recommended literature
 
 TBD
