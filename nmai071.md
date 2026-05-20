@@ -46,4 +46,7 @@ You may submit your solutions in Postal Owl repeatedly, and they will be correct
 
 # Recommended literature
 
-TBD
+- I. Kantor, J. Matoušek, R. Šámal: Mathematics++
+- A. Gathmann: Algebraic Geometry
+- B. Steinberg: Representation Theory of Finite Groups
+- J. L. Martin: Lecture Notes on Algebraic Combinatorics
