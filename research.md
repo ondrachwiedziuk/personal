@@ -18,10 +18,10 @@ permalink: /research/
 
 ### Preprints
 
-[Representing rational integers by generalized quadratic forms over quadratic fields](https://arxiv.org/abs/2403.07171) (with M. Doležálek, E. Pěchoučková, Z. Pezlar, O. Prakash, G. Romeo, A. Růžičková, M. Zindulka)
-
-[No proper generalized quadratic forms are universal over quadratic fields](https://arxiv.org/abs/2409.07941) (with M. Doležálek, S. Hlavinková, E. Pěchoučková, Z. Pezlar, O. Prakash, A. Růžičková, M. Zindulka)
-
 ### Published
+
+[Representing rational integers by generalized quadratic forms over quadratic fields](https://arxiv.org/abs/2403.07171) (with M. Doležálek, E. Pěchoučková, Z. Pezlar, O. Prakash, G. Romeo, A. Růžičková, M. Zindulka) — published in *New York Journal of Mathematics* **32** (2026), 691–718
+
+[No proper generalized quadratic forms are universal over quadratic fields](https://arxiv.org/abs/2409.07941) (with M. Doležálek, S. Hlavinková, E. Pěchoučková, Z. Pezlar, O. Prakash, A. Růžičková, M. Zindulka) — published in *The Ramanujan Journal* **69**(4) (2026), article 92
 
 ### Conference Proceedings
