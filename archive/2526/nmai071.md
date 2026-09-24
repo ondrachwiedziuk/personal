@@ -1,7 +1,7 @@
 ---
 layout: page
 title: M++ (NMAI071)
-permalink: /nmai071/
+permalink: /archive/2526/nmai071/
 ---
 
 This page is part of the tutorial for the course Mathematics++ ([NMAI071](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NMAI071)), held at 17:20 in S10. The [lecture](https://kam.mff.cuni.cz/Matematika++/) is given by [Martin Tancer](https://kam.mff.cuni.cz/~tancer/) and [Robert Šámal](https://iuuk.mff.cuni.cz/~samal/).

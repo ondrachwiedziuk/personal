@@ -20,17 +20,23 @@ permalink: /study/
 
 ## Teaching
 
+**[IPS (NDMI050)](https://mj.ucw.cz/vyuka/2627/ips/)** ![Flag](/assets/images/flag.webp){: .flag}
+
+**[Algebra 1 (NMAI062)](/nmai062/)**
+
+### Past Courses
+
+#### 2025/26
+
 **[IPS (NDMI050)](https://mj.ucw.cz/vyuka/2526/ips/)** ![Flag](/assets/images/flag.webp){: .flag}
 
 **[IPS2 (NDMI051)](https://mj.ucw.cz/vyuka/2526/ips2/)** ![Flag](/assets/images/flag.webp){: .flag}
 
-**[Algebra (NMAG206)](/nmag206/)** ![Flag](/assets/images/flag.webp){: .flag}
+**[Algebra (NMAG206)](https://karlin.mff.cuni.cz/~stovicek/index.php/cs/2526ls-nmag206)** ![Flag](/assets/images/flag.webp){: .flag}
 
-**[Algebra 1 (NMAI062)](/nmai062/)** ![Flag](/assets/images/flag.webp){: .flag}
+**[Algebra 1 (NMAI062)](/archive/2526/nmai062/)** ![Flag](/assets/images/flag.webp){: .flag}
 
-**[Mathematics++ (NMAI071)](/nmai071/)**
-
-### Past Courses
+**[Mathematics++ (NMAI071)](/archive/2526/nmai071/)**
 
 #### 2024/25
 
