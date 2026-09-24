@@ -9,7 +9,7 @@ This is the webpage for the tutorial class of Algebra 1 ([NMAI062](https://is.cu
 
 # Credit requirements
 
-Every week, one problem will be assigned, for a total of 12 problems. If you are struggling to solve the assigned problem that week, you may try submitting a problem from the second exercise session instead. However, you can earn only one point per week.
+Every week, one problem will be assigned, for a total of 12 problems. If you are struggling to solve the assigned problem, you may ask for a little hint, the problems should just refresh your memory and should not take more than an hour.
 
 To receive credit for the course, you need to earn at least 8 points. Points can be earned by correctly submitting homework assignments or by presenting selected exercise problems in class. You may also be asked to explain any of your submitted homework assignments live, and I will probably do that at least once.
 
