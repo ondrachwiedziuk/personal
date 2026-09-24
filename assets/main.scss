@@ -218,6 +218,7 @@ a.button,
   padding: 2px 8px;
   text-decoration: none !important;
   display: inline-block;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .button:hover, 
