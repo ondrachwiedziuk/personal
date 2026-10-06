@@ -25,3 +25,11 @@ You may use theorems stated in the [course notes](https://www.karlin.mff.cuni.cz
 # Problem sheets
 
 **[30. 9. Eukleidés and Bézout](/assets/files/alg_01.pdf)**
+
+**[7. 10. Modular Arithmetic and RSA](/assets/files/alg_02.pdf)**
+
+## Literature
+
+- [course notes EN](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_en.pdf)
+
+- [course notes CZ](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_cz.pdf)
