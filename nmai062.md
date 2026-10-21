@@ -28,6 +28,10 @@ You may use theorems stated in the [course notes](https://www.karlin.mff.cuni.cz
 
 **[7. 10. Modular Arithmetic and RSA](/assets/files/alg_02.pdf)**
 
+**[14. 10. Chinese Remainder theorem, rings](/assets/files/alg_03.pdf)**
+
+**[21. 10. Polynomials](/assets/files/alg_04.pdf)**
+
 ## Literature
 
 - [course notes EN](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_en.pdf)
