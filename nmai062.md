@@ -32,6 +32,8 @@ You may use theorems stated in the [course notes](https://www.karlin.mff.cuni.cz
 
 **[21. 10. Polynomials](/assets/files/alg_04.pdf)**
 
+**[4. 11. Irreducibility](/assets/files/alg_05.pdf)**
+
 ## Literature
 
 - [course notes EN](https://www.karlin.mff.cuni.cz/~kompatscher/teaching/alg1_en.pdf)
