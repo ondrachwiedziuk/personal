@@ -36,6 +36,7 @@ You may use theorems stated in the [course notes](https://www.karlin.mff.cuni.cz
 
 **[11. 11. Polynomials over integers and rationals](/assets/files/alg_06.pdf)**
 
+**[18. 11. UFD and Euclidean domains](/assets/files/alg_07.pdf)**
 
 ## Literature
 
